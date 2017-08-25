@@ -8,6 +8,8 @@ public class Party {
 	private ArrayList<Character> group;
 	private String name;
 	
+	
+	
 	public Party(String name) {
 		group = new ArrayList<Character>();
 		this.name = name;
