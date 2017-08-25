@@ -1,0 +1,16 @@
+package br.edu.iftm.tests;
+
+import br.edu.iftm.characters.Archer;
+import br.edu.iftm.systems.Party;
+import br.edu.iftm.weapons.SimpleBow;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Archer archer = new Archer("Lucas");
+		archer.equipWeapon(new SimpleBow());
+		archer.attack();
+		Party party = new Party("Os Malas");
+	}
+
+}

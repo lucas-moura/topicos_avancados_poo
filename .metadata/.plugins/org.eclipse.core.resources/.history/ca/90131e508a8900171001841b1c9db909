@@ -1,0 +1,12 @@
+package br.edu.iftm.weapons;
+
+public class Weapon implements WeaponBehavior{
+	public int damage;
+	
+	@Override
+	public void attack() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

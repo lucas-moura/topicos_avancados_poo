@@ -1,0 +1,7 @@
+package br.edu.iftm.systems;
+
+import java.util.ArrayList;
+
+public class Party {
+	private ArrayList<Character> group;
+}

@@ -1,0 +1,10 @@
+package br.edu.iftm.weapons;
+
+public class MagicStick extends Weapon {
+
+	public MagicStick(int damage, int defense, String weaponName) {
+		super(damage, defense, weaponName);
+		// TODO Auto-generated constructor stub
+	}
+
+}

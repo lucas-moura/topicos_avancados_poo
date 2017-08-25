@@ -1,0 +1,22 @@
+package br.edu.iftm.systems;
+
+import java.util.ArrayList;
+
+public class Party {
+	private ArrayList<Character> group;
+	
+	public String toString()
+	{
+		String strPt = "";
+		for(Character character : group)
+		{
+			System.out.println(character);
+		}
+		return r;
+	}
+	
+	public int getSize()
+	{
+		return group.size();
+	}
+}

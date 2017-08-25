@@ -1,0 +1,10 @@
+package br.edu.iftm.characters;
+
+public class Knight extends Character {
+
+	public Knight(String nome, String className) {
+		super(nome, className);
+		// TODO Auto-generated constructor stub
+	}
+
+}

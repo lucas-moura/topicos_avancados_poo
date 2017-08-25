@@ -1,0 +1,25 @@
+package br.edu.iftm.tests;
+
+import br.edu.iftm.characters.Archer;
+import br.edu.iftm.characters.Knight;
+import br.edu.iftm.characters.Wizard;
+import br.edu.iftm.systems.Party;
+import br.edu.iftm.weapons.LongSword;
+import br.edu.iftm.weapons.SimpleBow;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Archer archer = new Archer("Lucas");
+		archer.equipWeapon(new SimpleBow());
+		archer.attack();
+		
+		Knight knight = new Knight("Grande Kina");
+		knight.equipWeapon(new LongSword());
+		
+		Wizard wizard = new Wizard("Gandolfo");
+		
+		Party party = new Party("Os Malas");
+	}
+
+}

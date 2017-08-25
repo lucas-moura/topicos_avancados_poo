@@ -1,0 +1,32 @@
+package br.edu.iftm.systems;
+
+import java.util.ArrayList;
+
+public class Party {
+	private ArrayList<Character> group;
+	private String name;
+	
+	public String toString()
+	{
+		String strGroup = "";
+		for(Character character : group)
+		{
+			System.out.println(character);
+		}
+		return strGroup;
+	}
+	
+	public int getSize()
+	{
+		return group.size();
+	}
+	
+	public void attack()
+	{
+		System.out.println("O grupo " + name + " começou o ataque!");
+		for(Character character : group)
+		{
+			
+		}
+	}
+}

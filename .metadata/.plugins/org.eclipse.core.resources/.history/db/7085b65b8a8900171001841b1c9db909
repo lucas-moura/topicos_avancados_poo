@@ -1,0 +1,51 @@
+package br.edu.iftm.weapons;
+
+public class Weapon implements WeaponBehavior{
+	public int damage;
+	public int defense;
+	
+	
+	
+	
+	
+	public Weapon(int damage, int defense) {
+		super();
+		this.damage = damage;
+		this.defense = defense;
+	}
+
+
+
+	@Override
+	public void attack() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+	public int getDamage() {
+		return damage;
+	}
+
+
+
+	public void setDamage(int damage) {
+		this.damage = damage;
+	}
+
+
+
+	public int getDefense() {
+		return defense;
+	}
+
+
+
+	public void setDefense(int defense) {
+		this.defense = defense;
+	}
+
+	
+	
+}

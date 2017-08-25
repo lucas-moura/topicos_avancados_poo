@@ -1,0 +1,10 @@
+package br.edu.iftm.weapons;
+
+public class SimpleBow extends Weapon{
+
+	public SimpleBow(int damage, int defense) {
+		super(damage, defense);
+		// TODO Auto-generated constructor stub
+	}
+
+}

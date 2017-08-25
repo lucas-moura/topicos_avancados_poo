@@ -1,0 +1,6 @@
+package br.edu.iftm.characters;
+
+public abstract class Character {
+	private String nome;
+	
+}
